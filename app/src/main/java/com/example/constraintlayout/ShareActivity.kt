@@ -16,5 +16,6 @@ class ShareActivity : AppCompatActivity() {
 
         val outerText : TextView = findViewById(R.id.tvShareExt)
         outerText.text = intent.extras?.getString(Intent.EXTRA_TEXT)
+
     }
 }
